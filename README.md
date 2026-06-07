@@ -55,28 +55,28 @@ Dream/
 ## Live Demo
 
 ### Homepage
-![Homepage Screenshot](src/screenshots/Homepage.png)
+![Homepage Screenshot](screenshots/homepage.jpg)
 
-### Products
-![Shop Screenshot](src/screenshots/Shop.png)
+### Shop
+![Shop Screenshot](screenshots/shop.jpg)
 
 ### Category
-![Category Screenshot](src/screenshots/Category.png)
+![Category Screenshot](screenshots/category.jpg)
 
 ### Shade Matcher
-![Shade Matcher Screenshot](src/screenshots/Shade Matcher.png)
+![Shade Matcher Screenshot](screenshots/shadematcher.jpg)
 
 ### Cart
-![Cart Screenshot](src/screenshots/Cart.png)
+![Cart Screenshot](screenshots/cart.jpg)
 
-### Testimonials_Footer
-![Testimonials_Footer Screenshot](src/screenshots/Testimonials_Footer.png)
+### Testimonials & Footer
+![Testimonials_Footer Screenshot](screenshots/testimonials_footer.jpg)
 
 ### Contact
-![Contact Screenshot](src/screenshots/Contact.png)
+![Contact Screenshot](screenshots/contact.jpg)
 
 ### Featured
-![Featured Screenshot](src/screenshots/Featured.png)
+![Featured Screenshot](screenshots/featured.jpg)
 ---
 ## Future Enhancements
 AI‑powered shade matcher for foundation
