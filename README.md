@@ -86,7 +86,7 @@ Payment gateway simulation
 Wishlist & order tracking
 ---
 # Clone repository
-git clone https://github.com/your-username/dream-makeup-demo.git
+git clone https://github.com/dhanalakshmi-achar/dream-makeup-demo.git
 
 # Navigate to project folder
 cd dream-makeup-demo
