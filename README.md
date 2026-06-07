@@ -28,7 +28,7 @@ Note: This is a practice/demo website, not a real business.
 - Node.js & npm
 
 ---
-## Live Demo
+## Preview
 
 ### Homepage
 ![Homepage Screenshot](screenshots/Homepage.jpg)
