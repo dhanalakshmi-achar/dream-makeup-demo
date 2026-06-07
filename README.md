@@ -56,10 +56,15 @@ Note: This is a practice/demo website, not a real business.
 ---
 ## Future Enhancements
 AI‑powered shade matcher for foundation
+
 Real product catalog integration
+
 Secure login & authentication
+
 Payment gateway simulation
+
 Wishlist & order tracking
+
 ---
 # Clone repository
 git clone https://github.com/dhanalakshmi-achar/dream-makeup-demo.git
@@ -71,9 +76,9 @@ cd dream-makeup-demo
 npm install
 
 # Start development server
-npm run dev
----
+run dev
 
+---
 ### Author
 Dhanalakshmi
 Skills: React (Beginner), Frontend UI Design, JavaScript basics
