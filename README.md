@@ -55,7 +55,7 @@ Dream/
 ## Live Demo
 
 ### Homepage
-![Homepage Screenshot](screenshots/homepage.jpg)
+![Homepage Screenshot](screenshots/Homepage.jpg)
 
 ### Shop
 ![Shop Screenshot](screenshots/shop.jpg)
