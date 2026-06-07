@@ -26,31 +26,7 @@ Note: This is a practice/demo website, not a real business.
 - JavaScript (ES6+)
 - CSS3 (Flexbox / Grid)
 - Node.js & npm
----
-## Folder Structure
-Dream/
-┣ src/
-┃ ┣ assets/
-┃ ┃ ┗ images/              # product/demo images
-┃ ┣ components/
-┃ ┃ ┣ Navbar.jsx
-┃ ┃ ┣ Hero.jsx
-┃ ┃ ┣ ProductCard.jsx
-┃ ┃ ┣ Cart.jsx
-┃ ┃ ┣ Footer.jsx
-┃ ┃ ┣ Categories.jsx
-┃ ┃ ┣ Testimonials.jsx
-┃ ┃ ┣ ContactForm.jsx
-┃ ┃ ┣ Login.jsx
-┃ ┃ ┗ Banner.jsx
-┃ ┃ ┗ FeaturedProducts.jsx
-┃ ┃ ┗ Perfect.jsx     #shade matcher for foundation
-┃ ┣ App.jsx
-┃ ┣ index.css
-┃ ┗ main.jsx
-┣ public/
-┣ screenshots/              # screenshots for README
-┗ README.md
+
 ---
 ## Live Demo
 
