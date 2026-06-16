@@ -32,6 +32,11 @@ Note: This is a practice/demo website, not a real business.
 - CSS3 (Flexbox / Grid)
 - Node.js & npm
 - Supabase (PostgreSQL + Auth)
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5f72f7bc9e8d91903b60a938b9d2e6916366ffed
 
 ---
 ## Preview
@@ -45,6 +50,11 @@ Note: This is a practice/demo website, not a real business.
 
 ### Search
 ![Search Screenshot](screenshots/SEARCH.jpg)
+
+![Shop Screenshot](screenshots/NEW_SHOP_ALL.png)
+
+### Search
+![Search Screenshot](screenshots/SEARCHDREAM.jpg)
 
 ### Category
 ![Category Screenshot](screenshots/Category.jpg)
