@@ -46,11 +46,6 @@ Note: This is a practice/demo website, not a real business.
 ### Search
 ![Search Screenshot](screenshots/SEARCH.jpg)
 
-![Shop Screenshot](screenshots/NEW_SHOP_ALL.png)
-
-### Search
-![Search Screenshot](screenshots/SEARCHDREAM.jpg)
-
 ### Category
 ![Category Screenshot](screenshots/Category.jpg)
 
