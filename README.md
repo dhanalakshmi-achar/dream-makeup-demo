@@ -31,6 +31,7 @@ Note: This is a practice/demo website, not a real business.
 - JavaScript (ES6+)
 - CSS3 (Flexbox / Grid)
 - Node.js & npm
+
 - Supabase (PostgreSQL + Auth)
 ---
 ## Live Demo
@@ -63,14 +64,50 @@ Note: This is a practice/demo website, not a real business.
 ### Featured
 ![Featured Screenshot](screenshots/featured.jpg)
 
+
+
+---
+## Preview
+
+### Homepage
+![Homepage Screenshot](screenshots/Homepage.jpg)
+
+### Shop
+![Shop Screenshot](screenshots/Shop.jpg)
+
+### Category
+![Category Screenshot](screenshots/Category.jpg)
+
+### Shade Matcher
+![Shade Matcher Screenshot](screenshots/ShadeMatcher.jpg)
+
+### Cart
+![Cart Screenshot](screenshots/Cart.jpg)
+
+### Testimonials & Footer
+![Testimonials_Footer Screenshot](screenshots/Testimonials_Footer.jpg)
+
+### Contact
+![Contact Screenshot](screenshots/Contact.jpg)
+
+### Featured
+![Featured Screenshot](screenshots/Featured.jpg)
+
 ---
 ## Future Enhancements
 AI‑powered shade matcher for foundation
+
 Real product catalog integration
+
 Secure login & authentication
+
 Payment gateway simulation
+
 Wishlist & order tracking
+
 Filter toggle (Supabase only / Local only / All)
+
+
 ---
 # Clone repository
 git clone https://github.com/dhanalakshmi-achar/dream-makeup-demo.git
@@ -82,9 +119,10 @@ cd dream-makeup-demo
 npm install
 
 # Start development server
-npm run dev
----
+run dev
 
+---
 ### Author
 Dhanalakshmi
+
 Skills: React (Beginner), Frontend UI Design, JavaScript basics
