@@ -44,7 +44,8 @@ Note: This is a practice/demo website, not a real business.
 
 ### Shop
 ![Shop Screenshot](screenshots/Shop.jpg)
-![Shop Screenshot](screenshots/NEWSHOPALL.png)
+
+![Shop Screenshot](screenshots/NEW_SHOP_ALL.png)
 
 ### Search
 ![Search Screenshot](screenshots/SEARCHDREAM.jpg)
