@@ -33,36 +33,6 @@ Note: This is a practice/demo website, not a real business.
 - Node.js & npm
 
 - Supabase (PostgreSQL + Auth)
----
-## Live Demo
-
-### Homepage
-![Homepage Screenshot](screenshots/Homepage.jpg)
-
-### Shop
-![Shop Screenshot](screenshots/NEWSHOPALL.png)
-![Shop Screenshot](screenshots/Shop.png)
-
-### Search
-![Search Screenshot](screenshots/SEARCHDREAM.jpg)
-
-### Category
-![Category Screenshot](screenshots/category.jpg)
-
-### Shade Matcher
-![Shade Matcher Screenshot](screenshots/shadematcher.jpg)
-
-### Cart
-![Cart Screenshot](screenshots/cart.jpg)
-
-### Testimonials & Footer
-![Testimonials_Footer Screenshot](screenshots/testimonials_footer.jpg)
-
-### Contact
-![Contact Screenshot](screenshots/contact.jpg)
-
-### Featured
-![Featured Screenshot](screenshots/featured.jpg)
 
 
 
@@ -74,6 +44,10 @@ Note: This is a practice/demo website, not a real business.
 
 ### Shop
 ![Shop Screenshot](screenshots/Shop.jpg)
+![Shop Screenshot](screenshots/NEWSHOPALL.png)
+
+### Search
+![Search Screenshot](screenshots/SEARCHDREAM.jpg)
 
 ### Category
 ![Category Screenshot](screenshots/Category.jpg)
