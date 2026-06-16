@@ -33,6 +33,7 @@ export function Navbar() {
         <Link to="/Perfect" style={linkStyle}>Shade Matcher</Link>
         <Link to="/Cart" style={linkStyle}>Cart 🛒</Link>
         <Link to="/Login" style={linkStyle}>Login</Link>
+        <Link to="/search" style={linkStyle}>Search</Link>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet"></link>
 
       </div>

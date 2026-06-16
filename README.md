@@ -1,6 +1,7 @@
 # Dream – E‑Commerce Makeup Website (Demo)
 
 A demo React project simulating an online makeup store.  
+Includes Supabase integration for product management (CRUD) and a responsive product grid layout.
 Built for internship practice with a pastel aesthetic, responsive UI, and multiple reusable components.  
 Note: This is a practice/demo website, not a real business.
 ---
@@ -19,6 +20,10 @@ Note: This is a practice/demo website, not a real business.
 - Engaging **Testimonials** section with customer reviews
 - Contact Form for user queries
 - Professional **Footer** with links and socials
+- Full CRUD functionality (Create, Read, Update, Delete products via Supabase)
+- Unified product listing (Supabase + local assets)
+- Responsive 3‑column grid layout for products
+- Hover effects on product cards for interactive UI
 ---
 ## Tech Stack
 - React (Frontend framework)
@@ -26,57 +31,38 @@ Note: This is a practice/demo website, not a real business.
 - JavaScript (ES6+)
 - CSS3 (Flexbox / Grid)
 - Node.js & npm
----
-## Folder Structure
-Dream/
-┣ src/
-┃ ┣ assets/
-┃ ┃ ┗ images/              # product/demo images
-┃ ┣ components/
-┃ ┃ ┣ Navbar.jsx
-┃ ┃ ┣ Hero.jsx
-┃ ┃ ┣ ProductCard.jsx
-┃ ┃ ┣ Cart.jsx
-┃ ┃ ┣ Footer.jsx
-┃ ┃ ┣ Categories.jsx
-┃ ┃ ┣ Testimonials.jsx
-┃ ┃ ┣ ContactForm.jsx
-┃ ┃ ┣ Login.jsx
-┃ ┃ ┗ Banner.jsx
-┃ ┃ ┗ FeaturedProducts.jsx
-┃ ┃ ┗ Perfect.jsx     #shade matcher for foundation
-┃ ┣ App.jsx
-┃ ┣ index.css
-┃ ┗ main.jsx
-┣ public/
-┣ screenshots/              # screenshots for README
-┗ README.md
+- Supabase (PostgreSQL + Auth)
 ---
 ## Live Demo
 
 ### Homepage
-![Homepage Screenshot](src/screenshots/Homepage.png)
+![Homepage Screenshot](screenshots/homepage.jpg)
 
-### Products
-![Shop Screenshot](src/screenshots/Shop.png)
+### Shop
+![Shop Screenshot](screenshots/NEW SHOP ALL.png)
+![Shop Screenshot](screenshots/Shop.png)
+
+### Search
+![Search Screenshot](screenshots/SEARCH DREAM.jpg)
 
 ### Category
-![Category Screenshot](src/screenshots/Category.png)
+![Category Screenshot](screenshots/category.jpg)
 
 ### Shade Matcher
-![Shade Matcher Screenshot](src/screenshots/Shade Matcher.png)
+![Shade Matcher Screenshot](screenshots/shadematcher.jpg)
 
 ### Cart
-![Cart Screenshot](src/screenshots/Cart.png)
+![Cart Screenshot](screenshots/cart.jpg)
 
-### Testimonials_Footer
-![Testimonials_Footer Screenshot](src/screenshots/Testimonials_Footer.png)
+### Testimonials & Footer
+![Testimonials_Footer Screenshot](screenshots/testimonials_footer.jpg)
 
 ### Contact
-![Contact Screenshot](src/screenshots/Contact.png)
+![Contact Screenshot](screenshots/contact.jpg)
 
 ### Featured
-![Featured Screenshot](src/screenshots/Featured.png)
+![Featured Screenshot](screenshots/featured.jpg)
+
 ---
 ## Future Enhancements
 AI‑powered shade matcher for foundation
@@ -84,9 +70,10 @@ Real product catalog integration
 Secure login & authentication
 Payment gateway simulation
 Wishlist & order tracking
+Filter toggle (Supabase only / Local only / All)
 ---
 # Clone repository
-git clone https://github.com/your-username/dream-makeup-demo.git
+git clone https://github.com/dhanalakshmi-achar/dream-makeup-demo.git
 
 # Navigate to project folder
 cd dream-makeup-demo
