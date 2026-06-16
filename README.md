@@ -37,14 +37,14 @@ Note: This is a practice/demo website, not a real business.
 ## Live Demo
 
 ### Homepage
-![Homepage Screenshot](screenshots/homepage.jpg)
+![Homepage Screenshot](screenshots/Homepage.jpg)
 
 ### Shop
-![Shop Screenshot](screenshots/NEW SHOP ALL.png)
+![Shop Screenshot](screenshots/NEWSHOPALL.png)
 ![Shop Screenshot](screenshots/Shop.png)
 
 ### Search
-![Search Screenshot](screenshots/SEARCH DREAM.jpg)
+![Search Screenshot](screenshots/SEARCHDREAM.jpg)
 
 ### Category
 ![Category Screenshot](screenshots/category.jpg)
