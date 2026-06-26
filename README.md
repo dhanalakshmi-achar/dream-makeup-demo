@@ -41,15 +41,10 @@ Note: This is a practice/demo website, not a real business.
 
 ### Shop
 ![Shop Screenshot](screenshots/NEW.png)
-![Shop Screenshot](screenshots/Shop.png)
+![Shop Screenshot](screenshots/Shop.jpg)
 
 ### Search
-![Search Screenshot](screenshots/SEARCH.jpg)
-
-![Shop Screenshot](screenshots/NEW_SHOP_ALL.png)
-
-### Search
-![Search Screenshot](screenshots/SEARCHDREAM.jpg)
+![Search Screenshot](screenshots/SEARCH.png)
 
 ### Category
 ![Category Screenshot](screenshots/Category.jpg)
