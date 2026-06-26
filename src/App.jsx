@@ -146,7 +146,7 @@
 import React, { useState } from "react";
 import hearts from './assets/hearts.jpg'
 import {Navbar} from './components/Navbar.jsx'
-import {Hero} from './components/Hero.jsx'
+import Hero from './components/Hero.jsx'
 import {Banner} from './components/Banner.jsx'
 import Search from "./components/Search.jsx"
 import {Categories} from './components/Categories.jsx'
@@ -155,12 +155,15 @@ import {Perfect} from './components/Perfect.jsx'
 import {Testimonials} from './components/Testimonials.jsx'
 import {ContactForm} from './components/ContactForm.jsx'
 import {Footer} from './components/Footer.jsx'
-import {Login} from './components/Login.jsx'
+import Login from './components/Login.jsx'
 import {Cart} from './components/Cart.jsx'
 import ProductList from "./components/ProductList.jsx";
+import Dashboard from './components/Dashboard.jsx'
+import Signup  from './components/Signup'
 
 import ProductCard from './components/ProductCard.jsx'
 import {Routes,Route} from "react-router-dom";
+import Protected from './components/Protected.jsx'
 function App() {
   const [cart, setCart] = useState([]);
 
@@ -171,6 +174,7 @@ function App() {
   const removeFromCart = (id) => {
     setCart(cart.filter((item) => item.id !== id));
   };
+  const P = ({ children }) => <Protected>{children}</Protected>
   // const products = [
   //         { name: "Lipgloss – Rose Pink", price: 499, image: "src/assets/gloss.jpg" },
   //           { name: "Lip gloss – 10 shades available", price: 499, image: "src/assets/j.jpeg" },
@@ -193,17 +197,20 @@ function App() {
   // ]
   return (
   <>
-    <Navbar/>
+  
+    <Navbar/>  
     <Routes>
-      <Route path="/"element={<Hero/>}/>
-      <Route path="/Banner"element={<Banner/>}/>
-      <Route path="/Categories"element={<Categories/>}/>
-      <Route path="/FeaturedProducts"element={<FeaturedProducts/>}/>
-      <Route path="/Perfect"element={<Perfect/>}/>
+      <Route path="/"element={<P><Hero/></P>}/>
+      <Route path="/Banner"element={<P><Banner/></P>}/>
+      <Route path="/Categories"element={<P><Categories/></P>}/>
+      <Route path="/FeaturedProducts"element={<P><FeaturedProducts/></P>}/>
+      <Route path="/Perfect"element={<P><Perfect/></P>}/>
       <Route path="/Testimonials"element={<Testimonials/>}/>
       <Route path="/Login"element={<Login/>}/>
+          <Route path="/Signup"   element={<Signup />} />
+          <Route path="/Dashboard"      element={<P><Dashboard /></P>} />
       <Route path="/ContactForm"element={<ContactForm/>}/>
-      <Route path="/Footer"element={<Footer/>}/>
+      <Route path="/Footer"element={<P><Footer/></P>}/>
       <Route
   path="/ProductCard"
   element={<ProductList addToCart={addToCart} removeFromCart={removeFromCart} cart={cart} />}
@@ -239,6 +246,7 @@ function App() {
 
     <Banner/>
     <Footer/>
+    <Dashboard/>
     </>
   );
 }

@@ -6,7 +6,7 @@ export function Navbar() {
 
   return (
     <nav style={{
-      background: "linear-gradient(to right, #FFE8EE, #FFB0C4)",
+      background: "linear-gradient(to right, #ffffff, #ffe2e8)",
       padding: "15px 40px",
       display: "flex",
       justifyContent: "space-between",
@@ -31,7 +31,7 @@ export function Navbar() {
         <Link to="/" style={linkStyle}>Home</Link>
         <Link to="/ProductCard" style={linkStyle}>Shop</Link>
         <Link to="/Perfect" style={linkStyle}>Shade Matcher</Link>
-        <Link to="/Cart" style={linkStyle}>Cart 🛒</Link>
+        <Link to="/Cart" style={linkStyle}>Cart </Link>
         <Link to="/Login" style={linkStyle}>Login</Link>
         <Link to="/search" style={linkStyle}>Search</Link>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet"></link>
@@ -40,7 +40,7 @@ export function Navbar() {
 
       {/* Hamburger for mobile */}
       <div 
-        style={{ cursor: "pointer", fontSize: "24px", color: "#FF6FAE" }} 
+        style={{ cursor: "pointer", fontSize: "24px", color: "#000000" }} 
         className="hamburger"
         onClick={() => setOpen(!open)}
       >
@@ -63,7 +63,7 @@ export function Navbar() {
         }}>
           <Link to="/" style={mobileLinkStyle}>Home</Link>
           <Link to="/Perfect" style={mobileLinkStyle}>Shade Matcher</Link>
-          <Link to="/Cart" style={mobileLinkStyle}>Cart 🛒</Link>
+          <Link to="/Cart" style={mobileLinkStyle}>Cart </Link>
           <Link to="/Login" style={mobileLinkStyle}>Login</Link>
            <Link to="/ProductCard" style={mobileLinkStyle}>Shop</Link>
         </div>
@@ -75,7 +75,7 @@ export function Navbar() {
 // Reusable link styles
 const linkStyle = {
   textDecoration: "none",
-  color: "#ffffff",
+  color: "#3a3a3a",
   fontWeight: "500",
   padding: "8px 15px",
   borderRadius: "20px",
@@ -84,7 +84,7 @@ const linkStyle = {
 
 const mobileLinkStyle = {
   textDecoration: "none",
-  color: "#FF6FAE",
+  color: "#ffc0c0",
   fontWeight: "600",
   padding: "10px",
   borderRadius: "8px",

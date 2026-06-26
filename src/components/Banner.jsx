@@ -7,7 +7,7 @@ export function Banner() {
       justifyContent: "center",
       alignItems: "center",
       textAlign: "center",
-      background: "linear-gradient(to right, #FFE8EE, #FFB0C4)",
+      background: " #ffeff3",
       overflow: "hidden",
       borderRadius: "12px",
       margin: "40px 20px",
@@ -32,15 +32,15 @@ export function Banner() {
           fontFamily: "Poppins, sans-serif",
           fontWeight: "bold",
           fontSize: "2rem",
-          color: "#FF6FAE"
+          color: "#ff9ac6"
         }}>
-          ✨ Summer Glow Sale ✨
+           Summer Glow Sale 
         </h2>
         <p style={{ color: "#333", margin: "15px 0", fontSize: "1.1rem" }}>
           Get up to <strong>50% OFF</strong> on selected products!
         </p>
         <button style={{
-          background: "#FF6FAE",
+          background: "#fdbbd7",
           color: "white",
           padding: "12px 25px",
           border: "none",
@@ -48,7 +48,7 @@ export function Banner() {
           fontWeight: "bold",
           cursor: "pointer"
         }}>
-          Shop Now 💄
+          Shop Now 
         </button>
       </div>
     </section>

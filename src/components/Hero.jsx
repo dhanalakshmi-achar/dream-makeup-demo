@@ -1,9 +1,25 @@
 
 import React from "react";
 import heartsImage from "../assets/hearts.jpg"; // make sure hearts.jpg is inside src/assets
-import { Link } from "react-router-dom";
-export function Hero() {
+import { Link } from "react-router-dom";  
+import { useState,useEffect } from 'react'
+import { supabase } from '../supabase' 
+import { useNavigate } from 'react-router-dom' 
+export default function Hero() {
+  const [user,setUser]=useState("")
+useEffect(() => {
+  supabase.auth.getSession().then(({ data }) => setUser(data.session?.user ?? null))
+}, [])
+ 
   return (
+<>
+
+{user ? (
+            <Link className="btn" to="/Banner"> </Link>
+          ) : (
+            <> 
+            </>
+          )}
 
     <section style={{
       position: "relative",
@@ -20,6 +36,21 @@ export function Hero() {
       backgroundSize: "cover",
       backgroundPosition: "center"
     }}>
+ 
+        <div className="page-center">
+      <div className="hero">
+        
+        <div className="btn-row">
+          {user ? (
+            <Link className="btn" to="/dashboard"></Link>
+          ) : (
+            <> 
+            </>
+          )}
+        </div>
+      </div>
+    </div>
+    
       {/* Gradient overlay */}
       <div style={{
         position: "absolute",
@@ -28,7 +59,7 @@ export function Hero() {
         width: "100%",
         height: "100%",
         background: "linear-gradient(to right, #FFE8EE, #FFB0C4)",
-        opacity: 0.6
+        opacity: 0.7
       }}></div>
 
       {/* Hero Content */}
@@ -37,10 +68,10 @@ export function Hero() {
           fontFamily: "Poppins, sans-serif",
           fontWeight: "bold",
           fontSize: "3rem",
-          color: "#FF6FAE",
+          color: "#060606",
           marginBottom: "20px"
         }}>
-          Glow With Confidence 💖
+          Glow With Confidence 
          
         </h1>
         <p style={{
@@ -54,7 +85,7 @@ export function Hero() {
           Discover beauty products that match your vibe ✨
         </p>
        <button style={{
-  background: "#FF6FAE",
+  background: "#ffffff",
   color: "white",
   padding: "12px 25px",
   border: "none",
@@ -63,11 +94,15 @@ export function Hero() {
   cursor: "pointer",
   transition: "all 0.3s ease"
 }}>
-  <Link to="/ProductCard" style={{ textDecoration: "none", color: "white" }}>
+  <Link to="/ProductCard" style={{ textDecoration: "none", color: "black" }}>
     Shop Now 💄
   </Link>
 </button>
       </div>
     </section>
+    
+</>
+
   );
+
 }

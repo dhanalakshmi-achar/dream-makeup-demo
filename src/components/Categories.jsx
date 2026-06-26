@@ -13,7 +13,7 @@ export function Categories() {
   return (
     <section style={{
       padding: "40px",
-      background: "linear-gradient(to right, #FFE8EE, #FFB0C4)",
+      background: "linear-gradient(to right, #FFE8EE, #fdccd8)",
       textAlign: "center"
     }}>
       <h2 style={{ color: "#FF6FAE", fontFamily: "Poppins, sans-serif", marginBottom: "30px" }}>

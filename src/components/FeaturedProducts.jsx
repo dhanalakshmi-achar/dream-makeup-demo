@@ -8,10 +8,10 @@ export function FeaturedProducts() {
   return (
     <section style={{
       padding: "40px",
-      background: "linear-gradient(to right, #FFE8EE, #FFB0C4)",
+      background: "#FFE8EE ",
       textAlign: "center"
     }}>
-      <h2 style={{ color: "#FF6FAE", fontFamily: "Poppins, sans-serif", marginBottom: "30px" }}>
+      <h2 style={{ color: "#555555", fontFamily: "Poppins, sans-serif", marginBottom: "30px" }}>
         ✨ Featured Products ✨
       </h2>
 

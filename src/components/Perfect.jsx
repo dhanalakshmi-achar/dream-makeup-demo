@@ -32,14 +32,14 @@ export function Perfect({ addItem }) {
   return (
     <section style={{
       padding: "40px",
-      background: "linear-gradient(to right, #FFE8EE, #FFB0C4)",
+      background: " #FFE8EE",
       textAlign: "center"
     }}>
-      <h2 style={{ color: "#FF6FAE", fontFamily: "Poppins, sans-serif", marginBottom: "20px" }}>
-        ✨ Shade Matcher ✨
+      <h2 style={{ color: "#4c4c4c", fontFamily: "Poppins, sans-serif", marginBottom: "20px" }}>
+         Shade Matcher 
       </h2>
       <p style={{ marginBottom: "20px", color: "#555" }}>
-        Find your perfect foundation match 💖
+        Find your perfect foundation match 
       </p>
 
       <div style={{ display: "flex", justifyContent: "center", gap: "20px", marginBottom: "20px" }}>
@@ -58,7 +58,7 @@ export function Perfect({ addItem }) {
         </select>
       </div>
 
-      <button onClick={handleMatch} style={buttonStyle}>Match My Shade ✨</button>
+      <button onClick={handleMatch} style={buttonStyle}>Match My Shade </button>
 
       {suggestion && (
         <div style={{
@@ -93,7 +93,7 @@ const selectStyle = {
 };
 
 const buttonStyle = {
-  background: "#FF6FAE",
+  background: "#ffb0d2",
   color: "white",
   padding: "12px 25px",
   border: "none",

@@ -78,7 +78,7 @@ export default function ProductCard({ product, addToCart, removeFromCart, cart }
         alt={product.name}
         style={{ width: "100%", borderRadius: "8px", marginBottom: "10px" }}
       />
-      <h3 style={{ color: "#FF6FAE", fontFamily: "Poppins, sans-serif" }}>
+      <h3 style={{ color: "#5f5f5f", fontFamily: "Poppins, sans-serif" }}>
         {product.name}
       </h3>
       <p>{product.description}</p>
@@ -101,7 +101,7 @@ export default function ProductCard({ product, addToCart, removeFromCart, cart }
         <button
           onClick={() => addToCart(product)}
           style={{
-            background: "#FF6FAE",
+            background: "#ffc0db",
             color: "white",
             padding: "8px 15px",
             border: "none",

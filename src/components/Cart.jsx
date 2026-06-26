@@ -92,12 +92,12 @@ export function Cart({ cart, removeFromCart }) {
       style={{
         minHeight: "100vh",
         padding: "40px",
-        background: "linear-gradient(to right, #FFE8EE, #FFB0C4)",
+        background: "linear-gradient(to right, #FFE8EE, #ffdae3)",
         textAlign: "center"
       }}
     >
-      <h2 style={{ color: "#FF6FAE", fontFamily: "Poppins, sans-serif", marginBottom: "20px" }}>
-        🛒 Your Cart
+      <h2 style={{ color: "#4d4d4d", fontFamily: "Poppins, sans-serif", marginBottom: "20px" }}>
+         Your Cart
       </h2>
 
       {cart.length === 0 ? (

@@ -19,7 +19,7 @@ export function ContactForm() {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      background: "linear-gradient(to right, #FFE8EE, #FFB0C4)",
+      background: " #FFE8EE",
       padding: "40px"
     }}>
       <div style={{
@@ -46,7 +46,7 @@ export function ContactForm() {
         }}></div>
 
         <div style={{ position: "relative", zIndex: 2 }}>
-          <h2 style={{ color: "#FF6FAE", marginBottom: "20px" }}>Contact Us 💌</h2>
+          <h2 style={{ color: "#ffb1d3", marginBottom: "20px" }}>Contact Us 💌</h2>
 
           {!submitted ? (
             <form onSubmit={handleSubmit}>
@@ -76,7 +76,7 @@ export function ContactForm() {
                 style={{ ...inputStyle, minHeight: "100px" }}
                 required
               />
-              <button type="submit" style={buttonStyle}>Send ✨</button>
+              <button type="submit" style={buttonStyle}>Send </button>
             </form>
           ) : (
             <p style={{ color: "#FF6FAE", fontWeight: "bold", fontSize: "1.2rem" }}>
@@ -99,7 +99,7 @@ const inputStyle = {
 };
 
 const buttonStyle = {
-  background: "#FF6FAE",
+  background: "#ffc8e0",
   color: "white",
   padding: "12px 25px",
   border: "none",

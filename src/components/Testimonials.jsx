@@ -23,11 +23,11 @@ export function Testimonials() {
   return (
     <section style={{
       padding: "40px",
-      background: "linear-gradient(to right, #FFE8EE, #FFB0C4)",
+      background: "  #FFE8EE ",
       textAlign: "center"
     }}>
       <h2 style={{ color: "#FF6FAE", fontFamily: "Poppins, sans-serif", marginBottom: "30px" }}>
-        💖 What Our Customers Say 💖
+         What Our Customers Say 
       </h2>
 
       <div style={{

@@ -322,7 +322,7 @@ export default function Search({ addToCart, removeFromCart, cart }) {
   return (
     
     <div style={{ padding: "20px" }}>
-      <h2 style={{ color: "#FF6FAE", fontFamily: "Poppins, sans-serif", marginBottom: "20px" }}>✨ Add Product</h2>
+      <h2 style={{ color: "#3c3c3c", fontFamily: "Poppins, sans-serif", marginBottom: "20px" }}> Add Product</h2>
       
      
 
@@ -330,31 +330,31 @@ export default function Search({ addToCart, removeFromCart, cart }) {
   placeholder="Name"
   value={form.name}
   onChange={(e) => setForm({ ...form, name: e.target.value })}
-  style={{ width: "100%", padding: "10px", marginBottom: "10px", borderRadius: "8px", border: "1px solid #ccc", fontSize: "1rem" }}
+  style={{ color:"#FFE8EE",width: "100%", padding: "10px", marginBottom: "10px", borderRadius: "8px", border: "1px solid #ccc", fontSize: "1rem" }}
 />
 
 <input
   placeholder="Description"
   value={form.description}
   onChange={(e) => setForm({ ...form, description: e.target.value })}
-  style={{ width: "100%", padding: "10px", marginBottom: "10px", borderRadius: "8px", border: "1px solid #ccc", fontSize: "1rem" }}
+  style={{ color:"#FFE8EE",width: "100%", padding: "10px", marginBottom: "10px", borderRadius: "8px", border: "1px solid #ccc", fontSize: "1rem" }}
 />
 
 <input
   placeholder="Price"
   value={form.price}
   onChange={(e) => setForm({ ...form, price: e.target.value })}
-  style={{ width: "100%", padding: "10px", marginBottom: "10px", borderRadius: "8px", border: "1px solid #ccc", fontSize: "1rem" }}
+  style={{ color:"#FFE8EE",width: "100%", padding: "10px", marginBottom: "10px", borderRadius: "8px", border: "1px solid #ccc", fontSize: "1rem" }}
 />
 
 <input
   placeholder="Image URL"
   value={form.img_url}
   onChange={(e) => setForm({ ...form, img_url: e.target.value })}
-  style={{ width: "100%", padding: "10px", marginBottom: "10px", borderRadius: "8px", border: "1px solid #ccc", fontSize: "1rem" }}
+  style={{color:"#FFE8EE", width: "100%", padding: "10px", marginBottom: "10px", borderRadius: "8px", border: "1px solid #ffffff", fontSize: "1rem" }}
 />
 
-      <h2 style={{ color: "#FF6FAE", fontFamily: "Poppins, sans-serif", marginBottom: "20px" }}>📦 Products</h2>
+      <h2 style={{ color: "#ffb3d4", fontFamily: "Poppins, sans-serif", marginBottom: "20px" }}>📦 Products</h2>
     <div
       style={{
         display: "grid",
